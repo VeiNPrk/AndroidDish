@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/cv_padding_6"
+    android:paddingRight="@dimen/cv_padding_6"
+    android:paddingTop="@dimen/cv_padding_1"
+    android:paddingBottom="@dimen/cv_padding_1">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_dish"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/cv_padding_1"
+            >
+            <ImageView
+                android:layout_width="@dimen/cv_imv_size"
+                android:layout_height="@dimen/cv_imv_size"
+                android:id="@+id/im_dish_photo"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/tv_dish_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/im_dish_photo"
+                android:layout_alignParentTop="true"
+                android:lineSpacingMultiplier="0.8"
+                android:textSize="@dimen/cv_big_text_size"
+                android:paddingLeft="@dimen/cv_padding_left_5"
+                android:singleLine="false" />
+            <TextView
+                android:id="@+id/tv_dish_kategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/im_dish_photo"
+                android:layout_toRightOf="@+id/im_dish_photo"
+                android:layout_toEndOf="@+id/im_dish_photo"
+                android:textColor="@color/color_secondary_text"
+                android:textSize="@dimen/cv_text_size"
+                android:paddingLeft="@dimen/cv_padding_left_5" />
+            <TextView
+                android:id="@+id/tv_dish_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/cv_midl_text_size"
+                android:textColor="@color/color_secondary_text"
+                android:layout_alignBottom="@+id/tv_dish_kategoria"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

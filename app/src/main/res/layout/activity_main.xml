@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_order_table_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="@dimen/midl_text_size"
+        android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/btn_my_order"
+            android:layout_width="@dimen/btn_widtn"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_icons"
+            android:text="@string/btn_my_order" />
+        <Button
+            android:id="@+id/btn_order_menu"
+            android:layout_width="@dimen/btn_widtn"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_icons"
+            android:text="@string/btn_order_menu"/>
+        <Button
+            android:id="@+id/btn_order_table"
+            android:layout_width="@dimen/btn_widtn"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_icons"
+            android:text="@string/btn_order_table"/>
+</LinearLayout>

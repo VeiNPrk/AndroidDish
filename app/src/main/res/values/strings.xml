@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Android Finish</string>
+    <string name="menu_name">Наше меню</string>
+
+    <string name="btn_order_menu">Сделать заказ</string>
+    <string name="btn_order_table">Заказать столик</string>
+    <string name="btn_add_position">Добавить позицию</string>
+    <string name="btn_set_order">Сделать заказ</string>
+    <string name="btn_cal_date">Выбрать дату</string>
+    <string name="btn_cal_time">Выбрать время</string>
+    <string name="btn_my_order">Мой заказ</string>
+    <string name="btn_del_order">Отменить заказ</string>
+
+    <string name="tv_spn_t_holl">Выбор зала</string>
+    <string name="tv_my_order">Мой заказ</string>
+    <string name="tv_et_description">Пожелания:</string>
+    <string name="tv_cal_date">Дата</string>
+    <string name="tv_cal_time">Время</string>
+    <string name="tv_count_people">Количество человек</string>
+    <string name="tv_sum_order">Сумма заказа:</string>
+    <string name="tv_count_order">Позиций:</string>
+    <string name="tv_price_dish">Цена:</string>
+    <string name="tv_weight_dish">Вес:</string>
+
+    <string name="tst_add_position">Блюдо добавлено в заказ</string>
+    <string name="tst_order_table">Сделать заказ</string>
+    <string name="tst_null_my_order">У вас нет ни одного заказа, нажмите "Сделать заказ", чтобы создать заказ</string>
+    <string name="tst_del_order">Ваш заказ отменён</string>
+
+    <string name="exception_file_not_found">Файл не найден</string>
+    <string name="exception_io">Ошибка IOException</string>
+    <string name="exception_class_not_found">Класс не найден</string>
+    <string name="exception_class_cast">Ошибка ExceptionClassCast</string>
+
+    <string name="file_order">order.data</string>
+    <string name="file_cash_order">cash_order.data</string>
+    <string name="file_dishes">dishes.data</string>
+    <string name="file_kategories">kategories.data</string>
+    <string name="file_order_table">order_table.data</string>
+
+    <string name="menu_add_position">Добавить в заказ</string>
+    <string name="menu_dish_about">Подробней</string>
+    <string name="menu_del_table">Отменить заказ</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_order">К заказу</string>
+
+    <string name="dialog_tittle_order">Информация о брони</string>
+    <string name="dialog_tittle_about">Информация о программе</string>
+    <string name="dialog_text_about">Данная программе предназначена для автоматизации заказов в кафе. \nПрограммист: Ульяничев Иван Сергеевич. \nMail: wmzonacomvn@mail.ru</string>
+    <string name="dialog_type_holl">Тип зала:</string>
+    <string name="dialog_count">Количество человек:</string>
+    <string name="dialog_comment">Пожелания:</string>
+    <string name="dialog_notise_positive">Да</string>
+    <string name="dialog_notise_negative">Нет</string>
+    <string name="dialog_notise_neutral">Отмена</string>
+    <string name="dialog_notice_tittle">Внимание!</string>
+    <string name="dialog_notice_message">Вы не оформили заказ! \nХотите оформить заказ?</string>
+    <string-array name="arr_type_holl">
+        <item>Для курящих</item>
+        <item>Для не курящих</item>
+    </string-array>
+</resources>
